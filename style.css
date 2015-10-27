@@ -1,0 +1,23 @@
+body {
+  font-family: 'Quattrocento Sans',sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ol-attribution {
+  display: none;
+}
+
+#map {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#overlay {
+  background: white;
+  padding: 10px;
+}
