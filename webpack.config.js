@@ -1,9 +1,7 @@
 var path = require('path');
 
 module.exports = {
-  devtool: 'inline-source-map',
   entry: [
-    'webpack-dev-server/client?http://localhost:3000',
     './index'
   ],
   output: {
